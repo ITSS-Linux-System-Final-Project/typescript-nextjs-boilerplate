@@ -92,8 +92,8 @@ Open http://localhost:3000 with your favorite browser to see your project.
 Before commit, you have to run these commands and satisfy these requirements
 
 ```shell
+yarn format     # This will format your whole code and make your code follow eslint rules to some extend
 yarn lint       # This will return lint error in your files, make sure the result is OK
-yarn format     # This will format your whole code and make your code follow eslint rules
 yarn test       # Make sure all test cases will have high coverage
 ```
 
