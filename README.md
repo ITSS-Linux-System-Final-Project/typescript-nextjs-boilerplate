@@ -48,6 +48,12 @@ npm install -g yarn
 yarn install
 ```
 
+Make sure to fill the env:
+```shell
+NEXT_PUBLIC_API=
+NEXT_PUBLIC_PREFIX_LOCAL=
+```
+
 Then, you can run locally in development mode with live reload:
 
 ```shell
@@ -122,7 +128,30 @@ Now, your blog is ready to be deployed. All generated files are located at `out`
 
 ### Testing
 
-All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
+All tests are colocated with the source code inside the same directory `tests`.
+
+You can run test with:
+```shell
+yarn test
+```
+
+You can turn on test coverage by change the line in file `jest.config.js`
+```shell
+ collectCoverage: true
+```
+### Changing Log
+
+You can update your change log with this command
+
+You can run test with:
+```shell
+yarn update-log
+```
+
+You can turn on test coverage by change the line in file `jest.config.js`
+```shell
+collectCoverage: true
+```
 
 ### VSCode information (optional)
 
@@ -135,6 +164,12 @@ Pro tips: if you need a project wide type checking with TypeScript, you can run 
 ### Contributions
 
 Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug. Totally open to any suggestions and improvements.
+
+### Inspriations
+
+Licensed under the MIT License, Copyright © 2022
+
+See [LICENSE](LICENSE) for more information.
 
 ### License
 

@@ -9,7 +9,7 @@ If you have an awesome new feature that you want to implement or you found a bug
 - **Create an issue** to explain and discuss the details
 - **Choose correct issue template**
 - **Fork the repo**
-- **Clone the repo**
+- **Clone the repo** (setting documentation: [Settings](https://github.com/ITSS-Linux-System-Final-Project/typescript-nextjs-boilerplate/blob/main/README.md)
 - **Implement** the necessary changes
 - **Create tests** to keep the code coverage high
 - **Send a pull request**

@@ -57,6 +57,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.48.2",
 		"@typescript-eslint/parser": "^5.48.2",
 		"autoprefixer": "^10.4.13",
+		"changelog.md": "^1.1.0",
 		"commitizen": "^4.3.0",
 		"cookies-next": "^2.1.1",
 		"cross-env": "^7.0.3",
