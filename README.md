@@ -42,7 +42,7 @@ Developer experience first:
 Run the following command on your local environment:
 
 ```shell
-git clone --depth=1 https://github.com/ITSS-Linux-System-Final-Project/typescript-nextjs-boilerplate.git
+git clone https://github.com/ITSS-Linux-System-Final-Project/typescript-nextjs-boilerplate.git
 cd typescript-nextjs-boilerplate
 npm install -g yarn
 yarn install
@@ -66,8 +66,8 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── src
 │   ├── @types                      # Define type for components, pages or data from server
 │   ├── layouts                     # Layouts for each pages
-|   ├── components                  # Components
-|   |  ├── common                   # Small components that you often use
+│   ├── components                  # Components
+│   │  ├── common                   # Small components that you often use
 │   ├── pages                       # Next JS Pages
 │   ├── constants                   # Constants variables such as enum, hardcode name of website or sth else
 │   ├── configs                     # Where you define configs for thirdparty such as redux, firebase, mongodb, etc.
