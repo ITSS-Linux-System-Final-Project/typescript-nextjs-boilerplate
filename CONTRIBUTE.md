@@ -9,7 +9,7 @@ If you have an awesome new feature that you want to implement or you found a bug
 - **Create an issue** to explain and discuss the details
 - **Choose correct issue template**
 - **Fork the repo**
-- **Clone the repo** and set it up (check out the [manual installation](https://github.com/hagopj13/node-express-boilerplate#manual-installation) section in README.md)
+- **Clone the repo**
 - **Implement** the necessary changes
 - **Create tests** to keep the code coverage high
 - **Send a pull request**
